@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EstoComo</title>
+    <link rel="stylesheet" type="text/css" href="estilos_contacto.css">
+</head>
+<body>
+    <header>
+        <div>
+            <button class="button-52" role="button">Menú</button>
+        </div>
+        <div class="logo">
+            <a href="index.html"><h1>ESTO-COMO</h1></a>
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/"><img src="facebook.png"></a>
+            <a href="https://www.instagram.com/"><img src="instagram.png"></a>
+            <a href="https://www.twitter.com/"><img src="twitter.png"></a>
+        </div>
+    </header>
+    <nav>
+        <a href="platos.html"><h3>Platos</h3></a>
+        <a href="index.html"><h3>Sobre Nosotros</h3></a>
+        <a href="contacto.html"><h3 class="actual">Contacto</h3></a>
+    </nav>
+    
+    <div id="container">
+        <h1>&bull; Contáctanos &bull;</h1>
+        <div class="underline">
+        </div>
+        <form action="#" method="post" id="contact_form">
+          <div class="name">
+            <label for="name"></label>
+            <input type="text" placeholder="Nombre" name="name" id="name_input" required>
+          </div>
+          <div class="email">
+            <label for="email"></label>
+            <input type="email" placeholder="E-mail" name="email" id="email_input" required>
+          </div>
+          <div class="telephone">
+            <label for="name"></label>
+            <input type="text" placeholder="Número de teléfono" name="telephone" id="telephone_input" required>
+          </div>
+          <div class="subject">
+            <label for="subject"></label>
+            <select placeholder="Subject line" name="subject" id="subject_input" required>
+              <option disabled hidden selected>Tipo de comentario</option>
+              <option>Reclamación</option>
+              <option>Reseña</option>
+              <option>Pregunta</option>
+            </select>
+          </div>
+          <div class="message">
+            <label for="message"></label>
+            <textarea name="message" placeholder="Escribe aquí tu mensaje" id="message_input" cols="30" rows="5" required></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Enviar" id="form_button" />
+          </div>
+        </form><!-- // End form -->
+      </div><!-- // End #container -->
+
+      <footer>
+        <div>
+            <h5>Email: contacto@estocomo.com</h5>
+            <h5>Dirección: Calle Falsa 123, Ciudad, País</h5>
+            <h5>Teléfono: +123 456 7890</h5>
+        </div>
+        <h5>&copy; 2023 EstoComo. Todos los derechos reservados.</h5>
+    </footer>
+</body>
+</html>
