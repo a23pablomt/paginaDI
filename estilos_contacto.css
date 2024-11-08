@@ -8,73 +8,73 @@ html {
 
 
 body{
-    background-color: #ffd481;
-    font-family: 'SwedenSans', sans-serif;
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+  background-color: #ffd481;
+  font-family: 'SwedenSans', sans-serif;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 header{
-    background-color: #005293;
-    color: #fecb00;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #005293;
+  color: #fecb00;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .redes{
-    display: flex;
-    gap: 10px;
-    margin-right: 30px;
+  display: flex;
+  gap: 10px;
+  margin-right: 30px;
 }
 
 .logo{
-    color: #fecb00;
+  color: #fecb00;
 }
 
 nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 75px;
-    align-items: center;
-    background-color: #fafafa;
-    margin-top: 10px;
-    height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 75px;
+  align-items: center;
+  background-color: #fafafa;
+  margin-top: 10px;
+  height: 30px;
 }
 
 .actual{
-    color: #005293;
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    font-weight: bold;
+  color: #005293;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: bold;
 }
 
 .logo a{
-    color:  #fecb00;
-    text-decoration: none;
+  color:  #fecb00;
+  text-decoration: none;
 }
 
 nav a{
-    color: #005293;
-    text-decoration: none;
+  color: #005293;
+  text-decoration: none;
 }
 
 footer{
-    background-color: #005293;
-    color: #fecb00;
-    padding: 10px 0;
-    text-align: flex-end;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding:20px;
-    padding-top: 0px;
-    height: 200px;
+  background-color: #005293;
+  color: #fecb00;
+  padding: 10px 0;
+  text-align: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding:20px;
+  padding-top: 0px;
+  height: 200px;
 }
 
 
@@ -296,4 +296,56 @@ textarea {
 #subject_input option{
     color: #005293;
     background-color: #ffd481;
+}
+
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid #fecb00;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 30px;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+.redes img{
+  all: unset;
+  height: 40px;
+  border: #fecb00 2px solid;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.menu a {
+  color: #fecb00;
+  text-decoration: none;
 }

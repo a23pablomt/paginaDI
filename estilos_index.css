@@ -69,6 +69,7 @@ footer{
 }
 
 .button-52 {
+  all: unset;
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;
@@ -81,6 +82,7 @@ footer{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-left: 30px;
 }
 
 .button-52:after {
@@ -250,6 +252,20 @@ footer{
   
 }
 
+
 .containertiras2 .sabor{
   margin-left: -13.5%;
+}
+
+.redes img{
+all: unset;
+height: 40px;
+border: #fecb00 2px solid;
+border-radius: 50%;
+padding: 5px ;
+}
+
+.menu a {
+  color: #fecb00;
+  text-decoration: none;
 }
